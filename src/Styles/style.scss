@@ -22,13 +22,13 @@ $color : #fff;
 .divBackgroundContainer{
     font-family: $fuenteGeneral;
     position: relative;
-    height: 100%;
+    height: 1100px;
     width: 100%;
 
     .videoBackground{
     object-fit: cover;
+    height: 1100px;
     width: 100%;
-    height: 100%;
     }
 }
 
@@ -71,7 +71,7 @@ $color : #fff;
                     white-space: nowrap;
                     margin: 0 auto;
                     border-right: 3px solid #e5e9eb;
-                    animation: typing 3.5s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+                    animation: typing 3.5s steps(38) 0.5s 1 normal both, blink 1s steps(1) infinite;
                 }
 
                 .textoAnimation2{
@@ -80,7 +80,7 @@ $color : #fff;
                     white-space: nowrap;
                     margin: 0 auto;
                     border-right: 3px solid #e5e9eb;
-                    animation: typing 3.5s steps(38) 4s 1 normal both, blink 1s steps(1) infinite;
+                    animation: typing 3.5s steps(38) 3.5s 1 normal both, blink 1s steps(1) infinite;
                 }
 
                 @keyframes typing {
@@ -99,10 +99,10 @@ $color : #fff;
             }
 
             #h3Header{
-                font-size: 40px;
+                font-size: 45px;
             }
             #h4Header{
-                    font-size: 30px;
+                    font-size: 35px;
             }
         }
 
@@ -114,6 +114,8 @@ $color : #fff;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .portfolio-experiment {
@@ -121,13 +123,13 @@ $color : #fff;
     
     a {
         color: white;
+        font-family: $fuenteGeneral;
         padding: $pad $extra;
         display: inline-block;
         border: $thick solid transparent;
         position: relative;
         font-size: 1.5em;
         cursor: pointer;
-        letter-spacing: 0.07em;
 
         .text {
         transform: translate3d(0,$pad,0);
@@ -246,7 +248,16 @@ $color : #fff;
 
 // About Me
 
+.divAboutMeContainer{
+    margin-top: 50px;
 
+    h4{
+        font-size: 30px;
+    }
+    p{
+        font-size: 22px;
+    }
+}
 
 
 

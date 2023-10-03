@@ -9,7 +9,6 @@ const ContentContainer = () => {
             <div className='divCCHeader'>
                 <Header/>
             </div>
-            <hr />
             <div>
                 <NavBar/>
             </div>
