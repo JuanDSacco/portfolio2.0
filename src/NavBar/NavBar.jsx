@@ -16,6 +16,15 @@ const NavBar = () => {
             </section>
             <section class="portfolio-experiment">
                 <a>
+                    <span class="text">Skills</span>
+                    <span class="line -right"></span>
+                    <span class="line -top"></span>
+                    <span class="line -left"></span>
+                    <span class="line -bottom"></span>
+                </a>
+            </section>
+            <section class="portfolio-experiment">
+                <a>
                     <span class="text">Proyectos</span>
                     <span class="line -right"></span>
                     <span class="line -top"></span>
