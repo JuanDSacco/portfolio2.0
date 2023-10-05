@@ -1,4 +1,5 @@
 import React from 'react';
+import Swal from 'sweetalert2';
 
 class CopiarEmail extends React.Component {
     copiarAlPortapapeles = () => {
@@ -12,7 +13,7 @@ class CopiarEmail extends React.Component {
     
         document.body.removeChild(tempInput);
     
-        alert('Email copiado al portapapeles');
+        Swal.fire('¡Email copiado al portapapeles!')
         };
     
         render() {
