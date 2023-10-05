@@ -8,14 +8,14 @@ import Boostrap from '../assets/ImgSkills/bootstrap.png'
 import Github from '../assets/ImgSkills/github.png'
 import SASS from '../assets/ImgSkills/sass.png'
 import Babel from '../assets/ImgSkills/babel.png'
-import VS from '../assets/ImgSkills/vs.png'
 import Responsive from '../assets/ImgSkills/responsive.png'
 import Firebase from '../assets/ImgSkills/firebase.png'
+import Git from '../assets/ImgSkills/git.png'
 
 const Skills = () => {
 
     return (
-        <div className='divSkillsContainer'>
+        <div id='skills' className='divSkillsContainer'>
             <h4>Skills</h4>
             <div className="listaSkills">
                 <img className="react" src={ImgReact} alt="React Js"/>
@@ -34,7 +34,7 @@ const Skills = () => {
                 <hr />
                 <img className="babel" src={Babel} alt="Babel"/>
                 <hr />
-                <img className="vs" src={VS} alt="Visual studio code"/>
+                <img className="git" src={Git} alt="Git"/>
                 <hr />
                 <img className="responsive" src={Responsive} alt="Responsive"/>
                 <hr />

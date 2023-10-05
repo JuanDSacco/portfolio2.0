@@ -22,12 +22,12 @@ $color : #fff;
 .divBackgroundContainer{
     font-family: $fuenteGeneral;
     position: relative;
-    height: 2000px;
+    height: 2200px;
     width: 100%;
 
     .videoBackground{
     object-fit: cover;
-    height: 2000px;
+    height: 2200px;
     width: 100%;
     }
 }
@@ -258,6 +258,7 @@ $color : #fff;
     border-width: 0px 0px 3px 3px;
     border-style: solid;
 
+
     h4{
         font-size: 30px;
     }
@@ -458,18 +459,18 @@ $color : #fff;
     100% {left: 0px;bottom: 0px;}
 }
 
-.vs{
+.git{
     height: 80px;
     width: 80px;
 
-    animation-name: vs;
+    animation-name: git;
     animation-duration: 4s;
     position: relative;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes vs {
+@keyframes git {
     0% {left: 0px;top: 0px;}
     25% {left: 0px;top: 25px;}
     50% {left: 0px;top: 50px;}
@@ -690,7 +691,33 @@ $color : #fff;
     }
 }
 
+// Contacto 
 
+.divContactoContainer{
+    
+    padding-top: 50px;
 
+    h4{
+        font-size: 30px;
+    }
 
+    .ulContacto{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
 
+        .liContacto{
+            margin: 20px;
+            list-style: none;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+}
+
+.buttonWpp{
+    i{
+        font-size: 30px;
+    }
+}

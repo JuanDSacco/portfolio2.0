@@ -4,6 +4,7 @@ import AboutMe from '../AboutMe/AboutMe'
 import NavBar from '../NavBar/NavBar'
 import Proyectos from '../Proyectos/Proyectos'
 import Skills from '../Skills/Skills'
+import Contacto from '../Contacto/Contacto'
 
 const ContentContainer = () => {
     return (
@@ -22,6 +23,9 @@ const ContentContainer = () => {
             </div>
             <div>
                 <Proyectos/>
+            </div>
+            <div>
+                <Contacto/>
             </div>
         </div>
     )
