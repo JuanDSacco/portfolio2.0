@@ -10,7 +10,7 @@ const Proyectos = () => {
         window.location.href='https://github.com/JuanDSacco/crud-json-server'
     }
     const redirectToHawaian = () => {
-        window.location.href='https://hawaian-react-context-responsive.netlify.app/'
+        window.location.href='https://hawaian-ecommerce-context-responsive.netlify.app/'
     }
     const redirectToPelis = () => {
         window.location.href='https://peliculas-context-firebase.netlify.app/'
@@ -30,7 +30,7 @@ const Proyectos = () => {
             <div className="card">
             <div className="content">
                 <h2 className="title">CRUD JSON SERVER</h2>
-                <p className="copy">Linkea a GitHub p/ descargar el repositorio. Hace falta ejecutar el servidor de Vite y el servidor de la API falsa {'('}fake-api{')'} </p>
+                <p className="copy">Linkea a GitHub p/ descargar el repositorio. Es necesario ejecutar el servidor de la API falsa con el comando "fake-api"</p>
                 <button onClick={redirectToCRUD} className="btn">github</button>
             </div>
             </div>
