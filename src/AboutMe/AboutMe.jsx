@@ -6,8 +6,12 @@ const AboutMe = () => {
     return (
         <div id='aboutMe' className='divAboutMeContainer'>
             <h4>About Me</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vero dolorum impedit necessitatibus? Iste suscipit quod recusandae illum fugiat rem aut numquam blanditiis dolorum aliquid, magnam animi cumque maiores minus deleniti inventore dignissimos tempora ab consectetur modi harum reprehenderit soluta nobis. Maiores laboriosam cum rerum placeat quod beatae, saepe, id officia delectus tempore consequatur itaque autem, harum asperiores fugiat fugit officiis adipisci. Dolorum velit debitis quibusdam, quisquam possimus reiciendis perspiciatis. Rerum assumenda quisquam fuga eveniet commodi cupiditate necessitatibus nam? Ea.</p>
-        </div>
+            <p>Desde que comencé mi experiencia como desarrollador hace poco más de dos años, 
+                he realizado trabajos de manera freelance, he colaborado con personas talentosas 
+                para crear proyectos de consumo y clones como Mercado Libre siendo el mayor proyecto.
+                Tengo una confianza silenciosa, curiosidad natural y 
+                trabajo constantemente para mejorar mis habilidades como desarrollador.</p>
+            </div>
     )
 }
 
