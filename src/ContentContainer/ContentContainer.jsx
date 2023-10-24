@@ -21,10 +21,10 @@ const ContentContainer = () => {
             <div className='divCCSkills'>
                 <Skills/>
             </div>
-            <div>
+            <div className='divCCProyectos'>
                 <Proyectos/>
             </div>
-            <div>
+            <div className='divCCContacto'>
                 <Contacto/>
             </div>
         </div>

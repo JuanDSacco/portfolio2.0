@@ -55,7 +55,6 @@ $color : #fff;
         .imgHeader{
             width: 420px;
             height: 420px;
-            border-radius: 50%;
         }
     
         .divH3H4Header{
@@ -721,3 +720,161 @@ $color : #fff;
         font-size: 30px;
     }
 }
+
+/* BREAKPOINTS */ 
+
+@media only screen and (max-width:768px) and (min-width:577px){
+
+    .divBackgroundContainer{
+        height: 1850px;
+
+        .videoBackground{
+            height: 1850px;
+        }
+        .divContentContainer{
+            height: 1850px;
+        }
+    }
+
+
+    // Header
+
+    .divHeaderContainer{
+
+        .imgHeader{
+            width: 300px;
+            height: 300px;
+        }
+    
+        .divH3H4Header{
+            width: 300px; //Modificar este ancho en relacion al ancho de la imgHeader   
+
+            #h3Header{
+                font-size: 35px;
+            }
+            #h4Header{
+                font-size: 25px;
+            }
+        }
+    }
+
+    // NavBar
+
+    .divNavBar{
+        padding-top: 0;
+        padding-bottom: 40px;
+
+        span{
+            font-size: 20px;
+        }
+    }
+
+    // About me
+
+    #aboutMe{
+
+        h4{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+
+    // Skills
+
+    .divSkillsContainer{
+        margin-top: 20px;
+
+        h4{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        .listaSkills{
+            padding-top: 50px;
+            margin-bottom: 60px;
+        }
+    }
+
+    .react{
+        height: 50px;
+        width: 50px;
+    }
+
+    .js{
+        height: 50px;
+        width: 50px;
+    }
+
+    .html{
+        height: 50px;
+        width: 50px;
+    }
+
+    .css{
+        height: 50px;
+        width: 50px;
+    }
+
+    .boostrap{
+        height: 50px;
+        width: 50px;
+    }
+
+    .github{
+        height: 50px;
+        width: 50px;
+    }
+
+    .sass{
+        height: 50px;
+        width: 50px;
+    }
+
+    .babel{
+        height: 50px;
+        width: 50px;
+    }
+
+    .git{
+        height: 50px;
+        width: 50px;
+    }
+
+    .responsive{
+        height: 50px;
+        width: 50px;
+    }
+
+    .firebase{
+        height: 50px;
+        width: 50px;
+    }
+
+    // Proyectos
+
+    .divProjectContainer{
+        padding-top: 0px;
+
+        h4{
+            font-size: 25px;
+        }
+
+        .card{
+            width: 252.5px;
+            height: 280px;
+        }
+    }
+
+    // Contacto
+
+    .divContactoContainer{
+        padding-top: 0;
+
+        h4{
+            font-size: 25px;
+        }
+    }
+}
+
