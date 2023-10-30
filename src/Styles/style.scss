@@ -878,3 +878,151 @@ $color : #fff;
     }
 }
 
+// 576px - 416px
+
+@media only screen and (max-width:576px) and (min-width:416px){
+    
+    .divBackgroundContainer{
+        height: 2150px;
+        .videoBackground{
+            height: 2150px;
+        }
+        .divContentContainer{
+            height: 2150px;
+        }
+    }
+
+    // Header
+
+    .divHeaderContainer{
+        .imgHeader{
+            width: 250px;
+            height: 250px;
+        }
+        .divH3H4Header{
+            width: 300px;
+            #h3Header{
+                font-size: 30px;
+            }
+            #h4Header{
+                font-size: 20px;
+            }
+        }
+    }
+
+    // NavBar
+
+    .divNavBar{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    span{
+        font-size: 18px;
+    }
+
+    // About Me
+
+    #aboutMe{
+        h4{
+            font-size: 20px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+
+    // Skills
+
+    .divSkillsContainer{
+        margin-top: 0;
+
+        h4{
+            font-size: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .listaSkills{
+            padding-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .react{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .js{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .html{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .css{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .boostrap{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .github{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .sass{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .babel{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .git{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .responsive{
+            height: 40px;
+            width: 40px;
+        }
+    
+        .firebase{
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    // Proyectos
+
+    .divProjectContainer{
+        padding-top: 50px;
+        h4{
+            font-size: 20px;
+        }
+    }
+
+    // Contacto
+
+    .divContactoContainer{
+        padding-top: 10px;
+        h4{
+            font-size: 20px;
+        }
+        .ulContacto{
+            padding-top: 0;
+            .liContacto{
+                font-size: 25px;
+            }
+        }
+    }
+}

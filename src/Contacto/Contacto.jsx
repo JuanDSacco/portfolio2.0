@@ -8,8 +8,6 @@ const Contacto = () => {
         window.location.href='https://www.linkedin.com/in/juan-d-sacco/'
     }
 
-    
-
     return (
         <div id='contacto' className='divContactoContainer'>
             <h4>Contactame</h4>
@@ -23,5 +21,3 @@ const Contacto = () => {
 }
 
 export default Contacto
-
-//<i class="fa-solid fa-envelope"></i>
