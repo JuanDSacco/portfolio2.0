@@ -1026,3 +1026,159 @@ $color : #fff;
         }
     }
 }
+
+@media only screen and (max-width:415px) and (min-width:360px){
+
+    .divBackgroundContainer{
+        height: 2600px;
+        .videoBackground{
+            height: 2600px;
+        }
+        .divContentContainer{
+            height: 2600px;
+        }
+    }
+
+    // Header
+
+    .divHeaderContainer{
+        flex-direction: column;
+        .imgHeader{
+            width: 220px;
+            height: 220px;
+        }
+        .divH3H4Header{
+            width: 250px;
+            #h3Header{
+                font-size: 28px;
+            }
+            #h4Header{
+                font-size: 18px;
+            }
+        }
+    }
+
+    // NavBar
+
+    .divNavBar{
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 20px;
+        span{
+            font-size: 16px;
+        }
+    }
+
+    // About Me
+
+    #aboutMe{
+        h4{
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+    // Skills
+
+    .divSkillsContainer{
+
+        margin-top: 20px;
+
+        h4{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .listaSkills{
+            padding-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .react{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .js{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .html{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .css{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .boostrap{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .github{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .sass{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .babel{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .git{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .responsive{
+            height: 30px;
+            width: 30px;
+        }
+    
+        .firebase{
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    // Proyectos
+
+    .divProjectContainer{
+        padding-top: 50px;
+        h4{
+            font-size: 18px;
+        }
+    }
+
+    // Contacto
+
+    .divContactoContainer{
+        padding-top: 0;
+        h4{
+            font-size: 18px;
+        }
+        .ulContacto{
+            padding-top: 0;
+
+            .liContacto{
+                font-size: 20px;
+            }
+            .buttonWpp{
+                i{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
