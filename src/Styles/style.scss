@@ -17,6 +17,10 @@ $pad : 0.7em;
 $extra : calc(#{$pad} * 1.2);
 $color : #fff;
 
+html{
+    scroll-behavior: smooth;
+}
+
 // Background Container
 
 .divBackgroundContainer{
